@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5sLuAOievft+En7LQfO027MJIhCLlV18YzeGOPmua6crmL4onVCYF6uDe4GjWGWt2jiOkbC52rQ2g+Lv/u176Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kosta\\source\\repos\\Lab8Prog\\Lab8Prog\\Lab8Prog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kosta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
