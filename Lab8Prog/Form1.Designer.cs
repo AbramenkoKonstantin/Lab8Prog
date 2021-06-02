@@ -3,15 +3,9 @@ namespace Lab8Prog
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,12 +15,8 @@ namespace Lab8Prog
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
@@ -39,9 +29,8 @@ namespace Lab8Prog
             this.label3 = new System.Windows.Forms.Label();
             this.newText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
+            
+
             this.button1.Location = new System.Drawing.Point(65, 244);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -50,9 +39,8 @@ namespace Lab8Prog
             this.button1.Text = "Файл изменен";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
+          
+
             this.button2.Location = new System.Drawing.Point(332, 244);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
@@ -61,9 +49,8 @@ namespace Lab8Prog
             this.button2.Text = "Файл удален";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
+           
+
             this.button3.Location = new System.Drawing.Point(598, 244);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
@@ -72,60 +59,53 @@ namespace Lab8Prog
             this.button3.Text = "Файл создан";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // fPath
-            // 
+            
+            
             this.fPath.Location = new System.Drawing.Point(203, 44);
             this.fPath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fPath.Name = "fPath";
             this.fPath.Size = new System.Drawing.Size(562, 23);
             this.fPath.TabIndex = 3;
-            // 
-            // sPath
-            // 
+            
+            
             this.sPath.Location = new System.Drawing.Point(203, 94);
             this.sPath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sPath.Name = "sPath";
             this.sPath.Size = new System.Drawing.Size(561, 23);
             this.sPath.TabIndex = 4;
-            // 
-            // label1
-            // 
+            
+            
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(26, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(157, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "Путь к первому устройству";
-            // 
-            // label2
-            // 
+           
+
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(20, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "Путь ко второму устройству";
-            // 
-            // label3
-            // 
+            
+            
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(158, 138);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 15);
             this.label3.TabIndex = 7;
             this.label3.Text = "Текст";
-            // 
-            // newText
-            // 
+           
+            
             this.newText.Location = new System.Drawing.Point(203, 138);
             this.newText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.newText.Name = "newText";
             this.newText.Size = new System.Drawing.Size(561, 23);
             this.newText.TabIndex = 8;
-            // 
-            // Form1
-            // 
+            
+            
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 395);
@@ -146,7 +126,7 @@ namespace Lab8Prog
 
         }
 
-        #endregion
+        
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

@@ -63,5 +63,3 @@ namespace Lab8Prog.Presenters
         }
     }
 }
-// C:\Users\rusla\Desktop\text1.txt
-// C:\Users\rusla\Desktop\Хлам\text1.txt
